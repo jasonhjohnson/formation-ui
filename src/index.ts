@@ -12,6 +12,7 @@ const template = html<MyCounter>`
   <button @click="${(x) => x.count--}">-</button>
   <span>${(x) => x.count}</span>
   <button @click="${(x) => x.count++}">+</button>
+  Yay.
 `;
 
 const styles = css`
